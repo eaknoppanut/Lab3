@@ -1,9 +1,9 @@
 body{
-  background-image:url('beer.jpg');
+  background-image:url(beer.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-
+  background-size: cover;
+  width: 100vw;
+  
 }
 .search{
   width: 30rem;
