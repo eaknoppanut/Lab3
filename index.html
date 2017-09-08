@@ -1,4 +1,25 @@
-<script src='build/main.bundle.js'></script>
+<!DOCTYPE html>
+<html >
+<head>
+    <script src="js/index.js"></script>
+    <script src='build/main.bundle.js'></script>
+  <meta charset="UTF-8">
+  <title>little search box</title>
+      <link rel="stylesheet" href="css/style.css">
+</head>
 
+<body>
+ 
+    <div class="search">
+        <input type="text" id="beer_name" class="search-box" placeholder="Enter Name Ex.Buzz,Pilsen Lager" />
+        <br>
+            <br>
+            <div class =".search-btn">
+            <button id="cmdSearch" class="btn info"   onclick="toSearch(document.getElementById('beer_name').value)">Search</button>
+            </div> 
+    </div>
+     <p id="result"></p>
 
-dfdf
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+</html>
